@@ -25,9 +25,25 @@
     {"id":"prod-441c3e77-019","name":"Premium Item 19","category":"books","price":205.63,"stock":4,"rating":2.9}
   ],
   "aggregations": {
-    "books": {
-      "count": 7,
-      "inventoryValue": 94508.80
-    }
+  "books": {
+    "count": 7,
+    "inventoryValue": 94508.80
+  },
+  "electronics": {
+    "count": 3,
+    "inventoryValue": 60463.34
+  },
+  "home": {
+    "count": 5,
+    "inventoryValue": 111656.07
+  },
+  "clothing": {
+    "count": 3,
+    "inventoryValue": 80866.66
+  },
+  "sports": {
+    "count": 1,
+    "inventoryValue": 5973.33
   }
+}
 }
